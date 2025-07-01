@@ -101,14 +101,12 @@ footer p {
 
 @media screen and (max-width: 768px) {
 
-  /* Ukloni fiksne margine */
   nav, section, footer {
     margin-left: 20px !important;
     margin-right: 20px !important;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
-  /* Navigacija u koloni */
   nav ul {
     flex-direction: column;
     gap: 10px;
@@ -120,7 +118,6 @@ footer p {
     display: block;
   }
 
-  /* Naslov i tekst manji */
   h1 {
     font-size: 36px;
   }
@@ -133,25 +130,21 @@ footer p {
     font-size: 16px;
   }
 
-  /* Mapa - 100% širine */
   .map_container iframe {
     width: 100% !important;
     height: 300px !important;
   }
 
-  /* Centriraj footer tekst */
   footer p {
     text-align: center;
     font-size: 12px;
   }
 
-  /* Smanji padding section */
   section {
     padding: 20px !important;
     text-align: center;
   }
 
-  /* Centriraj logo */
   header img {
     width: 100%;
     max-width: 300px;
