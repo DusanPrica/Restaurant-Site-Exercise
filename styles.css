@@ -101,41 +101,61 @@ footer p {
 
 @media screen and (max-width: 768px) {
 
-    body {
-        display: flex;
-        flex-direction: column;
-    }
+  /* Ukloni fiksne margine */
+  nav, section, footer {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    margin-top: 20px;
+  }
 
-    nav ul {
-        flex-direction: column;
-        padding: 0;
-    }
+  /* Navigacija u koloni */
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
 
-    nav {
-        background-color: rgba(0, 0, 0, 0.5);
-        margin: 20px 0;
-    }
-  
-    img {
-        width: 100%;
-    }
+  nav ul li a {
+    font-size: 14px;
+    text-align: center;
+    display: block;
+  }
 
-    h1 {
-        font-size: 36px;
-    }
+  /* Naslov i tekst manji */
+  h1 {
+    font-size: 36px;
+  }
 
-    p, a {
-        font-size: 16px;
-    }
+  p {
+    font-size: 16px;
+  }
 
-    .map_container iframe {
-        width: 100%;
-        height: 300px;
-    }
+  a {
+    font-size: 16px;
+  }
 
-    footer {
-        text-align: center;
-        padding: 15px;
-    }
+  /* Mapa - 100% širine */
+  .map_container iframe {
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  /* Centriraj footer tekst */
+  footer p {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  /* Smanji padding section */
+  section {
+    padding: 20px !important;
+    text-align: center;
+  }
+
+  /* Centriraj logo */
+  header img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
 
 }
