@@ -1,5 +1,5 @@
 ﻿# Restaurant-Project
-This project is part of the HTML and CSS course by me. It features a static website for a fictional restaurant called "Terasa". The project demonstrates various HTML and CSS techniques taught in the course.
+This project is part of the HTML and CSS exercise by myself. It features a static website for a fictional restaurant called "Terasa". The project demonstrates various HTML and CSS techniques taught in the course.
 
 ## Features
 
